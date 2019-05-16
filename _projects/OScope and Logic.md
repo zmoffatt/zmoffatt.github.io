@@ -1,7 +1,20 @@
 ---
-name: FPGA Game
+name: Ocilliscope and Logic Analyzer
 tools: [Verilog, FPGA]
 image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-external_url: https://www.google.com
 ---
+
+# SlugSat
+
+Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+
+![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+![](https://techcrunch.com/wp-content/uploads/2018/05/screenshot-materialio.png)
+
+<p class="text-center">
+{% include button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+</p>

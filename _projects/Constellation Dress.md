@@ -1,7 +1,20 @@
 ---
-name: SlugNine
-tools: [HTML5, CSS3]
+name: Constellation Dress
+tools: [Arduino, Wearables]
 image: https://www.infotyke.com/wp-content/uploads/2018/02/web-development-service-infotyke.png
 description: Have nothing to say about the project? just use a direct link to the project site or repo.
-external_url: https://www.google.com
 ---
+
+# SlugSat
+
+Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+
+![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+![](https://techcrunch.com/wp-content/uploads/2018/05/screenshot-materialio.png)
+
+<p class="text-center">
+{% include button.html link="https://github.com/YoussefRaafatNasry/portfolYOU" text="Learn More" %}
+</p>

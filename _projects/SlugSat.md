@@ -1,13 +1,15 @@
 ---
 name: SlugSat
 tools: [Embedded C, Microcontrollers, ...]
-image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
+image: /assets/SlugSat.jpg
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
 ---
 
-# Project A
+# SlugSat
 
-Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+SlugSat is a student lead and designed project to build and launch a miniature cubesat into low earth orbit. Onboard will be two payloads: a linear transponder for amateur radio use, and a gamma ray detector experiment from the UC Santa Cruz Institute for Particle Physics (SCIPP) for research on lighting storms.
+
+I am a member of the Command and Control team working primarily with the Science Payload to develop data collection, storage and error correction systems as well as with FreeRTOS to control the timing and priorities of our satellite.
 
 ![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
 
