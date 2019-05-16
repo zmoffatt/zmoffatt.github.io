@@ -1,7 +1,7 @@
 # Site settings
 title: Zee Moffatt
 description: >- # this means to ignore newlines until "baseurl:"
-  ___, __, Robotics Engineer 
+  Space Systems and Robotics Engineering  
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: zeemoffatt.com # the base hostname & protocol for your site, e.g. http://example.com
 repository: zmoffatt/zmoffatt.github.io
@@ -16,7 +16,7 @@ markdown: kramdown
 # Author Info
 author:
   name     : Zee Moffatt
-  image    : (/assets/Zee_Headshot.jpg)
+  image    : /assets/Zee_Headshot.jpg
   email    : zdmoffatt@gmail.com
 #  github   : username
 #  twitter  : username
