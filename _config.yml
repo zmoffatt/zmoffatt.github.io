@@ -1,5 +1,5 @@
 # Site settings
-title: portfolYOU
+title: Zee Moffatt
 description: >- # this means to ignore newlines until "baseurl:"
   Always code as if the guy who ends up maintaining your code
   will be a violent psychopath who knows where you live.
@@ -16,12 +16,12 @@ markdown: kramdown
 
 # Author Info
 author:
-  name     : John Doe
+  name     : Zee Moffatt
   image    : https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg
-  email    : username@xyz.com
+  email    : zdmoffatt@gmail.com
   github   : username
   twitter  : username
-  linkedin : username
+  linkedin : https://www.linkedin.com/in/zmoffatt/
   facebook : username
 
 
