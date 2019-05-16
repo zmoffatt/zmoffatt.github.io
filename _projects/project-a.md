@@ -1,11 +1,11 @@
 ---
 name: SlugSat
 tools: [Embedded C, Microcontrollers, ...]
-image: https://thenextscoop.com/wp-content/uploads/2019/01/web-design-2019.jpg
+image: /assets/SlugSat.jpg
 description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
 ---
 
-# Project A
+# SlugSat
 
 Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
 
