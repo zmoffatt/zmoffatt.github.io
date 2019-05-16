@@ -16,7 +16,7 @@ markdown: kramdown
 # Author Info
 author:
   name     : Zee Moffatt
-  image    : https://i2.cdn.turner.com/cnnnext/dam/assets/140926165711-john-sutter-profile-image-large-169.jpg
+  image    : /docs/Zee_Headshot.jpg
   email    : zdmoffatt@gmail.com
 #  github   : username
 #  twitter  : username
