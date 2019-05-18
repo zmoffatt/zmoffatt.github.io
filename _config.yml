@@ -1,7 +1,8 @@
 # Site settings
 title: Zee Moffatt
 description: >- # this means to ignore newlines until "baseurl:"
-  Space Systems and Robotics Engineering  
+  Space Systems and Robotics Engineering 
+  See the Projects page for my Portfolio! 
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: zeemoffatt.com # the base hostname & protocol for your site, e.g. http://example.com
 repository: zmoffatt/zmoffatt.github.io
