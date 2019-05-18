@@ -1,11 +1,12 @@
 ---
-name: SLugNine
+name: SlugNine
 tools: [Embedded C, Microcontrollers, Mechanical Systems, Matlab]
 image: 
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: Small canine inspired robot created for a graduate bio-inspired locomotion class.
+project!
 ---
 
-# SlugSat
+# SlugNine
 
 Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
 
