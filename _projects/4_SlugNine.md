@@ -7,6 +7,8 @@ description: Small canine inspired robot created for a graduate bio-inspired loc
 
 # SlugNine
 
+*Excerpts from unpublished paper on SlugNine*
+
 In this paper, we present a novel paraplegic autonomous quadruped robot named "SlugNine" based on a canine inspired body. Autonomous quadrupeds have been in development since the early 2000s and at this point come in a wide range of sizes with different applied gaits. Rather than creating another autonomous quadruped, we aim to explore an alternative style of locomotion capable of being utilized by a quadruped in the event of a system failure or ''paraplegic disability'' that will allow autonomous quadrupeds to be able to still fulfill its mission on it's two front legs if the back legs become disabled. This alternative gate is based on quadrupedal animals that have successfully adapting to paraplegic disabilities, in particular, canines. Through active simulation and prototyping we examine the feasibility of SlugNine's locomotion up a ramp while carrying a fragile payload. Through active simulation and prototyping we examine the feasibility of SlugNine's locomotion up a ramp while carrying a fragile payload.
 
 <img src="/assets/SlugNine/FBD.png" width="500">
