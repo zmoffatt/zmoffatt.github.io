@@ -1,11 +1,11 @@
 ---
 name: Constellation Dress
 tools: [Arduino, Wearables]
-image: https://www.infotyke.com/wp-content/uploads/2018/02/web-development-service-infotyke.png
+image: 
 description: Have nothing to say about the project? just use a direct link to the project site or repo.
 ---
 
-# SlugSat
+# Constellation Dress
 
 Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
 
