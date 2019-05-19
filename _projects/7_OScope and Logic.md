@@ -2,7 +2,7 @@
 name: Ocilliscope and Logic Analyzer
 tools: [Raspberry Pi, PSoC, Embedded C]
 image: 
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Digital Ocilliscope and Logic Analyzer created on a PSoC Microcontroller and Raspberry Pi.
 ---
 
 # Ocilliscope and Logic Analyzer
