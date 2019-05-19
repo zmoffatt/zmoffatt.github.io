@@ -2,7 +2,7 @@
 name: Mechatronics Autonomous Robot
 tools: [Electrical, Solidworks]
 image: /assets/Mech/robot.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: Autonomous robot capable of navigating a field, avoiding obstacles, locating and shooting an opponent. All before the opponent shot it.
 ---
 
 # Mechatronics Autonomous Robot
