@@ -11,7 +11,17 @@ SlugSat is a student lead and designed project to build and launch a miniature c
 
 I am a member of the Command and Control team working primarily with the Science Payload to develop data collection, storage and error correction systems as well as with FreeRTOS to control the timing and priorities of our satellite.
 
+### RTOS and Distributed System
 
+The main focuses of my team was on
+
+### Data Collection
+
+The main focus of my individual work was
+
+### Terestrial Gama Ray Flash Detector
+
+As part of 
 
 <img src="/assets/SlugSat/SlugSat_Team.jpeg" width="500">
 
