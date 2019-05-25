@@ -1,11 +1,16 @@
 ---
 name: Constellation Dress
-tools: [Arduino, Wearables]
+tools: [Arduino, Art, Wearables]
 image: 
 description: An ongoing wearable project for Makerfaire 2019
 ---
 
 # Constellation Dress
 
-Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
+A galaxy print dress with embedded individually programmable LED constellations.
 
+
+A Adafruit Flora controller is mounted with the battery in a 3D printed holder that clips to the inside of the back of the dress. 
+
+
+Designs and pictures coming soon!
