@@ -11,11 +11,9 @@ SlugSat is a student lead and designed project to build and launch a miniature c
 
 I am a member of the Command and Control team working primarily with the Science Payload to develop data collection, storage and error correction systems as well as with FreeRTOS to control the timing and priorities of our satellite.
 
-![](https://techcrunch.com/wp-content/uploads/2018/05/screen-shot-2018-05-01-at-11-30-23-am.png?w=1390&crop=1)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-![](https://techcrunch.com/wp-content/uploads/2018/05/screenshot-materialio.png)
+<img src="/assets/SlugSat/SlugSat_Team.jpeg" width="500">
 
 <p class="text-center">
 {% include button.html link="http://slugsat.soe.ucsc.edu" text="Learn More" %}
