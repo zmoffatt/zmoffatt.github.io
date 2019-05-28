@@ -13,7 +13,7 @@ I am a member of the Command and Control team working primarily with the Science
 
 ### RTOS and Distributed System
 
-The main focuses of my team was on
+The main focus of my team was on the controlling computer of the satellite. 
 
 ### Data Collection
 
