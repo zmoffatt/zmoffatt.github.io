@@ -33,7 +33,13 @@ On the second floor, there is the ping pong ball launcher, which has a custom mo
 
 <img src="/assets/Mech/Track_Wire.png" width="500">
 
+## Launcher
+
+The ball launcher was designed remembering that it has to shoot the ping pong ball roughly sixteen feet if both our robot and the opponent robot is on their respective sides of the Initial Firing Zone. Many teams had chosen to use the counter-rotating wheels, but we were skeptical of the current draw of having two motors spinning continuously and potentially blowing fuses on the Uno Stack. We would also need a third motor to get balls into the counter-rotating wheels. Initially tried to use a spring-loaded mechanism to fire the ball as seen in Figure \ref{fig:PDR}. After prototyping the design and testing it, the ball could only go about 6 feet, and each shot was not very accurate.
+
 <img src="/assets/Mech/wheelloader.png" width="500">
+
+After seeing that many teams were using counter-rotating wheels with little to no trouble, we switched to that mechanism. After some time on SolidWorks and some laser-cut parts out of MDF, we created a simple mount for the motors and redesigned part of the failed spring-loaded prototype to act as the ball plunger to push the balls into the wheels. There is a slider piece that act as the plunger, and a long hole vertical with a pin allows the mechanism to turn rotation motion in to linear oscillation. When the plunger is pulled back, the next ball loads from gravity, and then the plunger pushes the ball in between the pitching motors to make it launch. The benefit of this design is that the motors can just continuously run in a single direction, which means a pin can just have a PWM signal in software. This worked tremendously well, and even at a duty cycle of 10-20\%, we were easily getting the range we needed. The three motors were controlled using the DS3658 Driver board. 
 
 <img src="/assets/Mech/Built_Launcher.jpg" width="500">
 
