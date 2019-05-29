@@ -25,6 +25,11 @@ On the second floor, there is the ping pong ball launcher, which has a custom mo
 
 <img src="/assets/Mech/robot.png" width="250">
 
+As the beacon on the enemy robot was the only reference point we were guaranteed to have at the start as well as the only way to find the enemy robot it was imperative that our robot be able to find it reliably and efficiently. As such the circuit shown in figure \ref{fig:Beacon_Schematic} was adapted from the design created by Zee Moffatt and Barron Wong during Lab 2. 
+
+The circuit is a little different from the filters used by many of the other teams in that it consists of two pairs of filters and op-amp based comparators. 
+As it was originally created following the transresistive stage a noise filter stage centered at 2KHz with a passband of 100Hz helps to remove the noise from lights, lab equipment and other interference. It also mildly attunes the 1.5KHz and 2.5KHz signals but not to the degree required for the filter. Next, a Schmidt Trigger is used to rail the received signal with hysteresis bounds set to avoid any noise that got through the filter stage. The 'digital' signal is then sent into the main filter stage which attunes the 1.5KHz and 2.5KHz signals by greater then 20dB. Next, a peak detector with a large RC time constant is used to improve the signal for processing in the Schmidt Trigger that follows. This comparator creates the final signal seen by the UNO32 after it is run through a buffer to stop any effects of loading on the circuit. An LED provides a visual for the circuit's functionality. 
+
 <img src="/assets/Mech/Beacon.png" width="500">
 
 It is designed to be taller then it is wide in order to allow for a certain amount of error in the vertical placement while making sure that the detector would only see the beacon when pointed directly at it. On the back a slot the exact size and shape of the phototransistor holds it perfectly centered in order to make sure it doesn't slip while the robot moves, something that happened with the paper beacon.
