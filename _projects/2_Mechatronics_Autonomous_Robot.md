@@ -11,7 +11,7 @@ description: Autonomous robot capable of navigating a field, avoiding obstacles,
 ## Challenge 
 The robot had to start from one side of a 4ft by 8ft field and drive to the other side of the field into the Initial Firing Zone. There the robot would be allowed to shoot ping pong balls at its opponent who is on an identical, mirrored field. Lines of 2 inch wide tape about half a foot along the inside of the field to allow robots to follow the tape and get to the other side. Tape was also placed in the middle of the field in cross shapes, which also indicated where the obstacles could be located. A diagram of an example field is seen below. 
 
-<img src="/assets/Mech/field2.png" width="250">
+<img src="/assets/Mech/field2.png" width="500">
 
 ## Obstacles 
 The path to the Initial Firing Zone can be blocked with obstacles in the form of cacti that stood ten inches tall, ten inches wide, and three inches deep. These obstacles were fitted with beacons shooting 1.5kHz and 2.5kHz frequencies designed to confuse our beacon detector focused on 2kHz frequencies. These obstacles were also fitted with wires along the inside edges of the base of the obstacle to allow inductor circuits to detect their presence. There were three of these obstacles on the field that could be positioned on a line (not visible on the field) in front of the cross shapes of the center tape. These obstacles can be on the tape-following lines which made navigation of the robot more challenging. These obstacles were spaced apart from each other in such a way that a robot that was maxed out in volume could still fit in between the obstacles. 
