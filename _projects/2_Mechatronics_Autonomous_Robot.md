@@ -25,6 +25,7 @@ On the second floor, there is the ping pong ball launcher, which has a custom mo
 
 <img src="/assets/Mech/robot.png" width="250">
 
+## Beacon Detection
 As the beacon on the enemy robot was the only reference point we were guaranteed to have at the start as well as the only way to find the enemy robot it was imperative that our robot be able to find it reliably and efficiently. As such the circuit shown in figure \ref{fig:Beacon_Schematic} was adapted from the design created by Zee Moffatt and Barron Wong during Lab 2. 
 
 The circuit is a little different from the filters used by many of the other teams in that it consists of two pairs of filters and op-amp based comparators. 
@@ -38,12 +39,25 @@ During testing we discovered quickly that light leaks were a major issue and tha
 
 <img src="/assets/Mech/BeaconCone2.png" width="250">
 
+## Tape Sensors
+Another integral part of the robot was the tape sensors, which allowed us to see what was below the bot on the field. The interesting thing about this circuit is that each sensor actually has two completely separate components; one for the LED and one for the sensor. 
+
+In the final design, as seen in figure \ref{fig:Tape_Sensor_Schematic}, each LED is in series with a 47$\Omega$ current limiting resistor on their cathode side. The anode side of all six tape sensor LEDs are tied together and attached to the collector of the TIP122, putting it into a sinking configuration. With the TIP122's emitter grounded the UNO is able to turn the LEDs on and off by setting a digital pin high or low. For testing purposes a switch in series with a series 220$\Omega$ resistor to mimic the UNO's internal impedance was hooked up to the transistor. The TIP122 allows the LEDs to source the current they need to function while still being controllable from the UNO for the purpose of synchronous sampling. 
+
+For the internal phototransistor the emitter was tied to ground while the collector was in series with a 1K$\Omega$ resistor. By connecting an UNO ADC pin between the resistor and the transistor it is possible to measure the voltage drop across the phototransistor, which is proportional to the amount of reflected light it is seeing. The reason a 1K$\Omega$ resistor is being used here is that it tunes the gain to be optimal for the distance beneath our robot. While the on tape, off tape voltages are not quite digital, they are several volts different which is more then enough for easy differentiation in software.
+
+The actual circuit construction was split into two pieces as seen in figure \ref{fig:Tape_Perf}. One board acted as the power board; containing the regulator, protection diode and the TIP122 transistor. Seen in figure \ref{fig:LED_Power} it is a fairly small board with three inputs; power, ground and an LED on/off signal. It also has three outputs; ground, LED power and transistor power. The second board, seen in figures \ref{fig:LED_Top} and \ref{fig:LED_Bottom} was the I/O board for the sensors. In the image the right side of the board contains the two connectors used by the LEDs. The right side contains the connectors for the transistors. The color coded wires coming out of the board head back to the UNO.
+
 <img src="/assets/Mech/Tape_Sensor.png" width="500">
+
+## Track Wire Sensor
+Another unused circuit was the track wire sensor. When originally planning our solution to the task at hand we assumed that we would have to be able to get back to the front and as such the track wire sensor would be helpful in identifying when to hide behind an obstacle. 
+
+Based off of the circuit from lab 1, figure \ref{fig:Track_Wire} shows the track wire that we designed for this project. This circuit is far more compact then the original circuit it was based off of, allowing it to use only two chips, saving a lot of space. It starts off with a tank circuit tuned to around 27KHz. The output of the tank circuit passes through two gain stages for a total of a little over 100 times gain. The new,  larger signal then passes through a peak detector with a very large RC constant in order to keep it within the comparator bounds at all times. The comparator itself is actually an op-amp based comparator in order to minimize the number of chips needed. It's bounds were tuned by looking at the output of the peak detector at various distances from the track wire. The output of the comparator was passed into a buffer to stop any loading effects from the UNO and an indicator LED was added.
 
 <img src="/assets/Mech/Track_Wire.png" width="500">
 
 ## Launcher
-
 The ball launcher was designed remembering that it has to shoot the ping pong ball roughly sixteen feet if both our robot and the opponent robot is on their respective sides of the Initial Firing Zone. Many teams had chosen to use the counter-rotating wheels, but we were skeptical of the current draw of having two motors spinning continuously and potentially blowing fuses on the Uno Stack. We would also need a third motor to get balls into the counter-rotating wheels. Initially tried to use a spring-loaded mechanism to fire the ball as seen in Figure \ref{fig:PDR}. After prototyping the design and testing it, the ball could only go about 6 feet, and each shot was not very accurate.
 
 <img src="/assets/Mech/wheelloader.png" width="500">
@@ -51,6 +65,10 @@ The ball launcher was designed remembering that it has to shoot the ping pong ba
 After seeing that many teams were using counter-rotating wheels with little to no trouble, we switched to that mechanism. After some time on SolidWorks and some laser-cut parts out of MDF, we created a simple mount for the motors and redesigned part of the failed spring-loaded prototype to act as the ball plunger to push the balls into the wheels. There is a slider piece that act as the plunger, and a long hole vertical with a pin allows the mechanism to turn rotation motion in to linear oscillation. When the plunger is pulled back, the next ball loads from gravity, and then the plunger pushes the ball in between the pitching motors to make it launch. The benefit of this design is that the motors can just continuously run in a single direction, which means a pin can just have a PWM signal in software. This worked tremendously well, and even at a duty cycle of 10-20\%, we were easily getting the range we needed. The three motors were controlled using the DS3658 Driver board. 
 
 <img src="/assets/Mech/Built_Launcher.jpg" width="500">
+
+## State Machines
+
+## Final Design 
 
 <img src="/assets/Mech/robot.png" width="500">
 
