@@ -27,6 +27,10 @@ On the second floor, there is the ping pong ball launcher, which has a custom mo
 
 <img src="/assets/Mech/Beacon.png" width="500">
 
+It is designed to be taller then it is wide in order to allow for a certain amount of error in the vertical placement while making sure that the detector would only see the beacon when pointed directly at it. On the back a slot the exact size and shape of the phototransistor holds it perfectly centered in order to make sure it doesn't slip while the robot moves, something that happened with the paper beacon.
+
+During testing we discovered quickly that light leaks were a major issue and that even the plastic was not thick enough to stop them. In order to maximize performance the entire shield was wrapped in black electrical tape to make it totally opaque as seen in figure \ref{fig:Cone_Side}. One more leak was found in that light was able to make its way up between the wires attached to the phototransistor. Once these were heavily sealed in tape we were able to have the beacon right above the shield without the detector being able to see it. The vertical design allowed us to have an almost 20\textdegree error in our vertical direction while limiting our horizontal detection to within 5\textdegree s, allowing for very accurate aiming.
+
 <img src="/assets/Mech/BeaconCone2.png" width="250">
 
 <img src="/assets/Mech/Tape_Sensor.png" width="500">
