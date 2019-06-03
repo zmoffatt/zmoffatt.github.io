@@ -7,5 +7,4 @@ description: Digital Ocilliscope and Logic Analyzer created on a PSoC Microcontr
 
 # Ocilliscope and Logic Analyzer
 
-Projects A is an awesome project! Just remove the direct link from the project's front matter and you will have an individual page like this for your project.
-
+Oscilliscope and logic analyzer implimented using a PSoC to collect the analog signals and a Raspberry Pi to process and display the data to a screen.
