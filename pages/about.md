@@ -8,10 +8,7 @@ weight: 3
 # **About Me**
 
 **{{ site.author.name }}**,<br>
-Hello, I am Zee.
+I am Zee Moffatt, a recent graduate in Robotics Engineering from UC: Santa Cruz.
 
 
 
-<div class="row">
-{% include timeline.html %}
-</div>
