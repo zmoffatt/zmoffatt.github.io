@@ -47,6 +47,7 @@ defaults:
 
 # Exclude from processing.
 exclude:
+- leadership.html
 - README.md
 - CONTRIBUTING.md
 - LICENSE
