@@ -34,3 +34,7 @@ In order to facilitate the simultaneous operation of the payloads and auxiliary 
 <p class="text-center">
 {% include button.html link="http://slugsat.soe.ucsc.edu" text="Learn More" %}
 </p>
+
+<p class="text-center">
+{% include button.html link="https://github.com/SlugSat" text="Project Github Repository" %}
+</p>
