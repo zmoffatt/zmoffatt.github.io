@@ -7,6 +7,10 @@ description: Autonomous robot capable of navigating a field, avoiding obstacles,
 
 # Mechatronics Autonomous Robot
 
+<p class="text-center">
+{% include button.html link="https://www.youtube.com/watch?v=Uoz3Ah66wBg" text="A video of the robot winning competion (far side)" %}
+</p>
+
 
 ## Challenge 
 The robot had to start from one side of a 4ft by 8ft field and drive to the other side of the field into the Initial Firing Zone. There the robot would be allowed to shoot ping pong balls at its opponent who is on an identical, mirrored field. Lines of 2 inch wide tape about half a foot along the inside of the field to allow robots to follow the tape and get to the other side. Tape was also placed in the middle of the field in cross shapes, which also indicated where the obstacles could be located. A diagram of the field layout and an example double field can be seen below. 
